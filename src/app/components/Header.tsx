@@ -9,7 +9,7 @@ export const Header = () => {
     <Menu/>
     <div className='flex items-center gap-4'>
       <DarkModeSwitch />
-      <Link href={'/'} className='flex gap-1 items-center'>
+      <Link href="/" className='flex gap-1 items-center'>
         <span className='text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg'>
           IMDb
         </span>
